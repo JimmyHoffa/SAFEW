@@ -5,7 +5,7 @@ import JSONBigInt from 'json-bigint';
 import { getSpentAndUnspentBoxesFromMempool, getTokenListFromUtxos, getUtxosListValue, parseUtxos } from './utxos';
 import { errorAlert } from '../utils/Alerts';
 import ls from 'localstorage-slim';
-let ergolib = import('ergo-lib-wasm-browser');
+import ergolib from 'ergo-lib-browser.asm';
 
 
 /* global BigInt */
